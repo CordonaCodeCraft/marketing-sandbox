@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/reviews
+    web:
+      pageable:
+        page-parameter: "pageNumber"
+        size-parameter: "pageSize"
